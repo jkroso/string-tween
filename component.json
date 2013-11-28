@@ -1,0 +1,9 @@
+{
+  "name": "string-tween",
+  "repo": "jkroso/string-tween",
+  "description": "generate strings between two endpoint strings",
+  "keywords": ["tween","interpolate","string","animate"],
+  "dependencies": {},
+  "scripts": ["index.js"],
+  "license": "MIT"
+}

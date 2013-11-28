@@ -1,0 +1,18 @@
+{
+  "name": "string-tween",
+  "version": "0.1.0",
+  "description": "generate strings between two endpoint strings",
+  "keywords": ["tween","interpolate","string","animate"],
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "component/assert",
+    "serve": "jkroso/serve",
+    "mocha": "*",
+    "jsmd": "*"
+  },
+  "repository": "git://github.com/jkroso/string-tween.git",
+  "bugs": "https://github.com/jkroso/string-tween/issues",
+  "author": "Jake Rosoman",
+  "files": ["index.js"],
+  "license": "MIT"
+}
