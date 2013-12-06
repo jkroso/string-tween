@@ -71,6 +71,8 @@ tween('M0 0 20 0', 'M0 0 20 20')(.5) // => 'M0 0 20 10'
 
 Basically you just need to make sure both input strings have the same number of numbers in the same order and everything will work fine, no need to worry about whitespace or other formating differences. The generated strings will use the formating of the destination string.
 
-## Running the tests
+This means you can cheat a bit with the first string and just provide a list of numbers. So for the color example you could get away with:
 
-Just run `make` and navigate your browser to the test directory
+```js
+tween('255 0 0', 'rgb(0,255,0)')(.5) // => 'rgb(127.5,127.5,0)'
+```
