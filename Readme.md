@@ -17,6 +17,10 @@ then in your app:
 var tween = require('string-tween')
 ```
 
+## SHOWCASE
+
+Tween.js Modified  - https://tweenjs.ga/ - We're using "String Tween", Thanks! (@dalisoft)
+
 ## API
 
 ### tween(a, b)
